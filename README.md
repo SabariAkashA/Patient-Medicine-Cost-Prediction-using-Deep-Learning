@@ -1,6 +1,7 @@
 ## 🧠 Patient Medicine Cost Prediction using Deep Learning
 
 A project focused on predicting a patient’s total medicine cost using demographic and clinical data, powered by a **Feedforward Neural Network (FNN)** and visualized through a **Streamlit dashboard**.
+
 ---
 ### 📌 Problem Statement
 
