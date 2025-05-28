@@ -54,11 +54,20 @@ Hospitals and insurance providers need to anticipate patient treatment costs for
    pip install -r requirements.txt
    ```
 3. Launch dashboard:
-
+   ```bash
+   !npm install localtunnel
+   !streamlit run /usr/local/lib/python3.10/dist-packages/colab_kernel_launcher.py &>/dev/null&
+   ```
+   
    ```bash
    streamlit run app.py
    ```
-
+   ```bash
+   !pip install pyngrok
+   from pyngrok import ngrok
+   ngrok.set_auth_token("2vtcH3d1WIAyMdu7psEn0fdJto0_QZMtf5jLBQqsdpyQa1m6")  # Replace with your ngrok token
+   !streamlit run app.py & npx localtunnel --port 8501
+   ```
 ---
 
 ### 📌 Sample Prediction
